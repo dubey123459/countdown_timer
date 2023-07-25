@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgb(239, 18, 239),rgb(159, 16, 159));
+    background-position: center ;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+}
+.logo{
+    width: 120px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+.content{
+top: 40%;
+position: absolute;
+transform: translateY((-50%));
+color: black;
+}
+
+.content h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+.content h1 span{
+    color: rgb(225, 211, 225);
+}
+.content button{
+    margin-top: 18px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
+    cursor: pointer;
+
+}
+.launch-time{
+    display: flex;
+color: #fff;
+}
+.launch-time div{
+    flex-basis: 100px;
+    
+}
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -10px;
+    
+}
